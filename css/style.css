@@ -1,0 +1,110 @@
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.a_footer {
+    display: block;
+}
+h1 {
+    text-align: center;
+    padding: 20px 10px 0px 0px;
+}
+h2{
+    margin-left: 25px;
+}
+h3 {
+    text-align: center;
+}
+p{
+    margin-left: 10px;
+}
+header {
+    background: url('https://d626yq9e83zk1.cloudfront.net/files/2017/12/26-770x425.jpg') bottom center no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+@media (max-width: 450px) {
+    header {
+        visibility: hidden;
+    }
+    
+}
+adress {
+    text-align: center;
+}
+.sved{
+    background: url('https://oir.mobi/uploads/posts/2021-03/1616578387_45-p-svetlii-fon-dlya-saita-48.jpg');
+    color: white;
+    padding: 20px 20px;
+}
+.flex__ul {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.flex__item{
+    
+    flex-basis: 350px;
+    flex-grow: 0;
+    margin-left: 10%;
+}
+body{
+    background: url('https://phonoteka.org/uploads/posts/2022-02/thumbs/1643987341_4-phonoteka-org-p-fon-dlya-saita-besshovnii-svetlii-5.jpg');
+    font-family: 'Times New Roman', Times, serif;
+}
+.glavOdz {
+    padding: 20px 0;
+    color: #2f2f2f;
+    text-align: center;
+  }
+  .odz-size{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  .odz-log{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .odz-indent{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .odz-square {
+    background: #d4d1d1;
+    padding: 28px;
+    border: 2px solid rgb(119, 217, 255);
+  }
+  .odz-square img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(47, 155, 197);
+  }
+  .odz-name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }  
+  @media screen and (max-width:960px) {
+  .odz-indent{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .odz-indent{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
